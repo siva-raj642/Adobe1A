@@ -6,6 +6,7 @@
 This project is developed for the **Round 1A Hackathon Challenge – "Understand Your Document"**.  
 The main objective is to extract a **structured outline** from PDF documents including:
 
+
 - **Title**
 - **Headings (H1, H2, H3)**
 - **Page Numbers**
@@ -13,6 +14,7 @@ The main objective is to extract a **structured outline** from PDF documents inc
 The extracted structure is returned in a **clean JSON format** so that machines can understand the document hierarchy.
 
 ---
+
 
 ##  Problem Statement
 
@@ -24,9 +26,11 @@ This solution bridges that gap by extracting the logical structure of documents,
 - Insight Generation  
 - Recommendation Systems  
 
+
 ---
 
 ##  What This Project Does
+
 
 - Accepts PDF files (up to **50 pages**)
 - Extracts:
@@ -43,27 +47,26 @@ This solution bridges that gap by extracting the logical structure of documents,
   ]
 }
 
+
 ##  Docker Requirements
+
 Platform: linux/amd64 (x86_64)
-
 CPU only (No GPU dependency)
-
 Model size ≤ 200MB (if used)
-
 Works fully offline
-
 No internet access allowed
 
+
 ##  Expected Behavior
+
 The container will:
-
 Automatically read all PDFs from /app/input
-
 Process each PDF
-
 Generate a corresponding .json file in /app/output
 
+
 ## Example:
+
 
 bash
 Copy code
@@ -76,14 +79,12 @@ Runtime	CPU only (amd64)
 Model Size	≤ 200MB (if used)
 System	8 CPUs, 16GB RAM
 
+
 ##  Approach
+
 Load PDF files from /app/input
-
 Parse text and layout information
-
 Identify Title and heading levels (H1, H2, H3)
-
 Build hierarchical outline structure
-
 Export structured JSON to /app/output
 
