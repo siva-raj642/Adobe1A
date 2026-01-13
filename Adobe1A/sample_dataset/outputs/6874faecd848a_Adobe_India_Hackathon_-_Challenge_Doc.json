@@ -1,0 +1,275 @@
+{
+  "title": "Welcome to the “Connecting the Dots” Challenge Round 1B: Persona-Driven Document Intelligence",
+  "outline": [
+    {
+      "level": "H3",
+      "text": "Rethink Reading. Rediscover Knowledge",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "What if every time you opened a PDF, it didn’t just sit there—it spoke to you, connected ideas, and narrated meaning across your entire library?",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "That’s the future we’re building — and we want you to help shape it.",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "The Journey Ahead",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Why This Matters",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Are you in?",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "It’s time to read between the lines. Connect the dots. And build a PDF experience that feels like magic. Let’s go.",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Your Mission",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "This outline will be the foundation for the rest of your hackathon journey.",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Why This Matters",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "What You Need to Build",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "You Will Be Provided",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "1. A sample input PDF (e.g., sample.pdf) 2. A sample ground truth output (sample.json) for format clarity",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "3. Sample Dockerfile 4. Sample Solution",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Docker Requirements",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Expected Execution",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "After building the image, we will run the solution using the run command specified in the submitted instructions.",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Constraints",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Constraint Execution time",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Requirement ≤ 10 seconds for a 50-page PDF",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Network",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Runtime",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Scoring Criteria",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Criteria",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Max Points",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "10",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "25",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "45",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Submission Checklist",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Pro Tips",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Important – Please keep your Git Repo private till the competition",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "What Not to Do",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "[[Public Dataset Folder]]",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "(For Sample Input and Output Files, please refer to the appendix)",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Challenge Brief (For Participants)",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Input Specification",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "description with specific expertise and focus areas",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Sample Test Cases",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Required Output",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "a. Input documents b. Persona c. Job to be done d. Processing timestamp",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "a. Document b. Page number c. Section title d. Importance_rank",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "b. c. Refined Text d. Page Number Constraints",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Deliverables",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Sample input/output for testing",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Scoring Criteria",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Criteria",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Section Relevance",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Sub-Section Relevance",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Max Points",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "60",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "40",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Description",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "How well selected sections match persona + job requirements with proper stack ranking Quality of granular subsection extraction and ranking",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Hackathon25.git",
+      "page": 10
+    }
+  ]
+}
