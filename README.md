@@ -34,8 +34,6 @@ This solution bridges that gap by extracting the logical structure of documents,
   - H1, H2, H3 headings
   - Page number for each heading
 - Outputs a JSON file in the following format:
-
-
 {
   "title": "Understanding AI",
   "outline": [
@@ -44,7 +42,7 @@ This solution bridges that gap by extracting the logical structure of documents,
     { "level": "H3", "text": "History of AI", "page": 3 }
   ]
 }
-📁 Folder Structure
+## 📁 Folder Structure
 css
 Copy code
 project-root/
