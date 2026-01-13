@@ -1,7 +1,7 @@
 # 📄 Round 1A – Understand Your Document  
 ### Connecting the Dots Through Docs
 
-## 🔍 Overview
+##  Overview
 
 This project is developed for the **Round 1A Hackathon Challenge – "Understand Your Document"**.  
 The main objective is to extract a **structured outline** from PDF documents including:
@@ -14,7 +14,7 @@ The extracted structure is returned in a **clean JSON format** so that machines 
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 PDFs are widely used, but machines do not naturally understand their structure.  
 This solution bridges that gap by extracting the logical structure of documents, enabling:
@@ -26,7 +26,7 @@ This solution bridges that gap by extracting the logical structure of documents,
 
 ---
 
-## 🛠 What This Project Does
+##  What This Project Does
 
 - Accepts PDF files (up to **50 pages**)
 - Extracts:
@@ -42,25 +42,8 @@ This solution bridges that gap by extracting the logical structure of documents,
     { "level": "H3", "text": "History of AI", "page": 3 }
   ]
 }
-## 📁 Folder Structure
-css
-Copy code
-project-root/
-│
-├── app/
-│   ├── main.py
-│   └── requirements.txt
-│
-├── input/
-│   └── sample.pdf
-│
-├── output/
-│   └── sample.json
-│
-├── Dockerfile
-└── README.md
 
-## 🐳 Docker Requirements
+##  Docker Requirements
 Platform: linux/amd64 (x86_64)
 
 CPU only (No GPU dependency)
@@ -71,7 +54,7 @@ Works fully offline
 
 No internet access allowed
 
-## ⚙ Expected Behavior
+##  Expected Behavior
 The container will:
 
 Automatically read all PDFs from /app/input
@@ -93,7 +76,7 @@ Runtime	CPU only (amd64)
 Model Size	≤ 200MB (if used)
 System	8 CPUs, 16GB RAM
 
-## 🧠 Approach
+##  Approach
 Load PDF files from /app/input
 
 Parse text and layout information
